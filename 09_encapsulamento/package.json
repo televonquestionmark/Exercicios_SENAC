@@ -1,0 +1,16 @@
+{
+  "name": "09_encapsulamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node projeto/estoque.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.4"
+  }
+}
