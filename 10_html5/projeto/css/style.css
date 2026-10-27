@@ -1,0 +1,33 @@
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px
+        }
+        p{
+            font-style: italic;
+            color:#8000ff;
+        }
+        #menulinks{
+            border:solid 3px #ff0202;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        #menulinks a{
+            display: inline-block;
+            background-color: #f0f0f0;
+            margin-right: 3px;
+            padding: 8px 10px;
+            border-radius: 8px;
+            transition: 0.8s;
+            color: #000;
+        }
+        #menulinks a:hover{
+            background-color: #cccccc;
+            transition: 0.8s;
+        }
+        * {
+            text-decoration: none;
+        }
+        #menulinks a.ativo{
+            background-color: blue;
+            color: #ffffff;
+        }
